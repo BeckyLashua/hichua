@@ -94,10 +94,21 @@
         <fieldset>
           <label>pet_name</label>
           <input type="text" name="name">
-          <label>ownerID</label>
-          <input type="text" name="ownerID">
-          <label>pet_typeID</label>
-          <input type="text" name="pettypeID">
+          <label for="ownerID">ownerID</label>
+          <select name="ownerID" id="ownerID">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <label for="petTypeID">pet_typeID</label>
+          <select name="petTypeID" id="petTypeID">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
           <label>breed</label>
           <input type="text" name="breed">
           <label>birthdate</label>
@@ -114,10 +125,21 @@
             <label>Id:</label> 1
             <label>pet_name</label>
             <input type="text" name="nameUpdate" value="Sunday">
-            <label>ownerID</label>
-            <input type="text" name="ownerIDUpdate" value="1">
-            <label>pet_typeID</label>
-            <input type="text" name="pettypeIDUpdate"value="2">
+            <label for="ownerID">ownerID</label>
+          <select name="ownerID" id="ownerID">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <label for="petTypeID">pet_typeID</label>
+          <select name="petTypeID" id="petTypeID">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
             <label>breed</label>
             <input type="text" name="breedUpdate" value="Domestic Shorthair">
             <label>birthdate</label>
