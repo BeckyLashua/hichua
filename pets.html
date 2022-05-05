@@ -58,11 +58,44 @@
       </table>
     </div>
 
-    <div class="insert" style="display: block;"></div>
+    <div id="insert_pet" style="display: block;">
+      <form method="POST" id="insertpet">
+        <legend>Add Pet</legend>
+        <fieldset>
+          <label>pet_name</label>
+          <input type="text" name="name">
+          <label>ownerID</label>
+          <input type="text" name="ownerID">
+          <label>pet_typeID</label>
+          <input type="text" name="pettypeID">
+          <label>breed</label>
+          <input type="text" name="breed">
+          <label>birthdate</label>
+          <input type="text" name="birthdate">
+        </fieldset>
+        <input class="btn" type="submit" id="insertsubmit" value="Add Pet">
+      </form>
+    </div>
 
-    <div class="update" style="display: block;"></div>
-
-    <div class="delete" style="display: block;"></div>
+    <div id="update_pet" style="display: block;">
+      <form METHOD="POST" id="updatepet">
+          <legend>Update Pet</legend>
+          <fieldset>
+            <label>Id:</label> 1
+            <label>pet_name</label>
+            <input type="text" name="nameUpdate" value="Sunday">
+            <label>ownerID</label>
+            <input type="text" name="ownerIDUpdate" value="1">
+            <label>pet_typeID</label>
+            <input type="text" name="pettypeIDUpdate"value="2">
+            <label>breed</label>
+            <input type="text" name="breedUpdate" value="Domestic Shorthair">
+            <label>birthdate</label>
+            <input type="text" name="birthdateUpdate" value="04/15/2020">
+          </fieldset>
+          <input class="btn" type="submit" id="updatesubmit" value="Update Pet">
+        </form>
+    </div>
     
     <script src="" async defer></script>
   </body>

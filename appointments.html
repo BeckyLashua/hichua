@@ -59,6 +59,37 @@
         </tbody>
       </table>
     </div>
+
+    <div id="insert_appt" style="display: block;">
+      <form method="POST" id="insertappt">
+        <legend>Add Appointment</legend>
+        <fieldset>
+          <label>petID</label>
+          <input type="text" name="petIDInsert">
+          <label>exam_roomID</label>
+          <input type="text" name="roomIDInsert">
+          <label>appointment_date</label>
+          <input type="text" name="apptdateInsert">
+        </fieldset>
+        <input class="btn" type="submit" id="insertsubmit" value="Add Appointment">
+      </form>
+    </div>
+
+    <div id="update_appt" style="display: block;">
+      <form METHOD="POST" id="updateappt">
+          <legend>Update Appointment</legend>
+          <fieldset>
+            <label>Id:</label> 1
+            <label>petID</label>
+            <input type="text" name="petIDUpdate" value="2">
+            <label>exam_roomID</label>
+            <input type="text" name="roomIDUpdate" value="1">
+            <label>appointment_date</label>
+            <input type="text" name="apptDateUpdate" value="2022-04-26">
+          </fieldset>
+          <input class="btn" type="submit" id="updatesubmit" value="Update Appointment">
+        </form>
+    </div>
     <script src="" async defer></script>
   </body>
 </html>

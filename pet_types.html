@@ -21,7 +21,7 @@
     </ul>
 
     <div class="browse" style="display: block;">
-      <h4>Browse Owners</h4>
+      <h4>Browse Pet Types</h4>
       <table border="1" cellpadding="10" class="display_table">
         <tbody>
           <tr>
@@ -57,6 +57,30 @@
         </tbody>
       </table>
     </div>
+
+    <div id="insert_type" style="display: block;">
+      <form method="POST" id="insertType">
+        <legend>Add Pet Type</legend>
+        <fieldset>
+          <label>type_name</label>
+          <input type="text" name="typeNameInsert">
+        </fieldset>
+        <input class="btn" type="submit" id="insertsubmit" value="Add Pet Type">
+      </form>
+    </div>
+
+    <div id="update_type" style="display: block;">
+      <form METHOD="POST" id="updateType">
+          <legend>Update Pet Type</legend>
+          <fieldset>
+            <label>Id:</label> 1 
+            <label>type_name</label>
+            <input type="text" name="typeNameUpdate" value="Dog">
+          </fieldset>
+          <input class="btn" type="submit" id="updatesubmit" value="Update Pet Type">
+        </form>
+    </div>
+
     <script src="" async defer></script>
   </body>
 </html>

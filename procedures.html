@@ -21,7 +21,7 @@
     </ul>
 
     <div class="browse" style="display: block;">
-      <h4>Browse Owners</h4>
+      <h4>Browse Procedures</h4>
       <table border="1" cellpadding="10" class="display_table">
         <tbody>
           <tr>
@@ -68,6 +68,29 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <div id="insert_proc" style="display: block;">
+      <form method="POST" id="insertProc">
+        <legend>Add Procedure</legend>
+        <fieldset>
+          <label>proc_name</label>
+          <input type="text" name="procNameInsert">
+        </fieldset>
+        <input class="btn" type="submit" id="insertsubmit" value="Add Procedure">
+      </form>
+    </div>
+
+    <div id="update_proc" style="display: block;">
+      <form METHOD="POST" id="updateProc">
+          <legend>Update Procedure</legend>
+          <fieldset>
+            <label>Id:</label> 1 
+            <label>proc_name</label>
+            <input type="text" name="procNameUpdate" value="neuter">
+          </fieldset>
+          <input class="btn" type="submit" id="updatesubmit" value="Update Procedure">
+        </form>
     </div>
     <script src="" async defer></script>
   </body>
